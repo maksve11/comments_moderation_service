@@ -1,0 +1,17 @@
+model:
+  name: "bert-base-uncased"
+  max_length: 512
+  batch_size: 16
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "data/logs/app.log"
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+
+performance:
+  batch_size: 32
+  num_workers: 4

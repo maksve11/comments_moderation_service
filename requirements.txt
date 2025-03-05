@@ -1,0 +1,9 @@
+fastapi==0.95.0
+torch==2.2.0
+transformers==4.30.0
+uvicorn==0.22.0
+tokenizers==0.13.3
+scikit-learn
+pandas
+numpy
+scipy
